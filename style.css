@@ -1,0 +1,63 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: pokemon;
+}
+@font-face {
+font-family: pokemon;
+src: url(./pokemon/Pokemon\ Hollow.ttf);
+}
+body{
+width: 100vw;
+height: 100vh;
+background: black;
+}
+form{
+display: flex;
+width: 100%;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+input , button{
+background-color: white;
+border: 2px solid black;
+cursor: pointer;
+font-size: 25px;
+}
+h1{
+font-size: 40px;
+color: orange;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+.poke-container{
+display: flex;
+width: 100%;
+flex-wrap: wrap;
+padding: 40px;
+justify-content: space-around;
+}
+.poke-box{
+width: 300px;
+background-color: orange;
+border-radius: 20px;
+margin: 20px;
+}
+.poke-box img{
+width: 100%;
+margin: 10px 0;
+}
+.poke-box h5{
+font-size: 50px;
+color: tomato;
+text-align: center;
+}
+.poke-box p{
+margin: 5px auto;
+color: darkgoldenrod;
+font-size: 40px;
+text-align: center;
+}
